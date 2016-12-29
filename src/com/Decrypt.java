@@ -28,9 +28,9 @@ public class Decrypt {
     public static void main(String[] args) {
     	
     	args = new String[3];
-		args[0] = "C:\\UBS\\Dev\\workspace\\EncryptDecrypt\\src\\com\\des.key";
-		args[1] = "C:\\UBS\\Dev\\workspace\\EncryptDecrypt\\src\\com\\Common_Constants.properties.enc";
-		args[2] = "C:\\UBS\\Dev\\workspace\\EncryptDecrypt\\src\\com\\Common_Constants.properties";
+		args[0] = "C:\\workspace\\EncryptDecrypt\\src\\com\\des.key";
+		args[1] = "C:\\workspace\\EncryptDecrypt\\src\\com\\Common_Constants.properties.enc";
+		args[2] = "C:\\workspace\\EncryptDecrypt\\src\\com\\Common_Constants.properties";
     	
         if (args.length != 3) {
             System.out
